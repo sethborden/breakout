@@ -2,6 +2,8 @@
 
 _This is a work in progress_
 
+For a working preview click [here](http://sethborden.github.io/breakout).
+
 Breakout for your browser writte in plain old javascript.
 
 Don't let the ball get past your paddle.
