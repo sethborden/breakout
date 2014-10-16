@@ -11,3 +11,4 @@ hits the side of the browser.  Collisions with bricks are also messy.
 
 Mousewheel up makes the ball move faster, mousewheel down slows things up.
 
+If you're not scared away yet... [here it is](http://sethborden.github.io/breakout/)
