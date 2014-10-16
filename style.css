@@ -1,0 +1,71 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    background: rgb(253, 82, 82);
+    color: white;
+    cursor: none;
+}
+
+.block {
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    width: 50px;
+    height: 50px;
+    background: #ef67aa;
+    z-index: 1000;
+}
+
+#message {
+    position: absolute;
+    display: none;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20%;
+    background-image: url(img/pause.png);
+    z-index: 100;
+    width: 218px;
+    height: 58px;
+}
+
+#floater {
+    background-image: url(img/ball.png);
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+#paddle {
+    background-image: url(img/paddle.png);
+    position: absolute;
+    border-radius: 5px;
+    bottom: 50px;
+    left: 200px;
+    width: 346px;
+    height: 57px;
+}
+
+.score {
+    background: url(img/numbers.png);
+    display: inline-block;
+    width: 40px;
+    height: 48px;
+}
+
+#score-block {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#ultra {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
